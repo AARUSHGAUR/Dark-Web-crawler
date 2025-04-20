@@ -52,7 +52,7 @@ def visualize_keywords(keyword_counter, top_n=10):
 
 def main():
     # .onion url to crawl
-    onion_url = "http://gunsiqvaicyzyq7xqm2c3xshl6pjegtxjf3m3ldms2fo52lqvrmvbyyd.onion/"  # Replace with a valid URL
+    onion_url = "http://your-crawling-site.onion"  # Replace with a valid URL
 
     print(f"Crawling: {onion_url}")
     html_content = crawl_dark_web(onion_url)
